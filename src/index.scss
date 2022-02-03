@@ -1,0 +1,20 @@
+$font-stack: Poppins, sans-serif;
+$primary-color: #f3f3f3;
+$secondary-color: teal;
+
+* {
+  background-color: $primary-color;
+  font-family: $font-stack;
+}
+
+.wrapper {
+  background-color: $primary-color;
+  padding: 5rem;
+  height: 80vh;
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 0;
+  }
+}
